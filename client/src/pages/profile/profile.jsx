@@ -8,6 +8,8 @@ import { ProfileContainer } from './profileStyle';
 
 const profile = () => {
     const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+
+    
     return (
         <>
             <Topbar />
@@ -26,7 +28,7 @@ const profile = () => {
 
                     </div>
                     <div className="profileRightBottom">
-                        <Feed username="john"/>
+                        <Feed username="John"/>
                         <Rightbar profile/>
                     </div>
                 </div>
