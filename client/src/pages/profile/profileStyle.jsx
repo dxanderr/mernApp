@@ -45,6 +45,7 @@ export const ProfileContainer = styled.div`
 
                 .profileInfoDesc{
                     font-weight: 300;
+                    width: 70%;
                 }
             }
         }

@@ -15,7 +15,7 @@ const Feed = ({username}) => {
 
     useEffect(()=>{
         const fetchPosts = async () =>{
-            const res = await axios.get("/posts/profile/" + username)
+            const res = username ? await axios.get("/posts/profile/" + username) : await axios.get("posts/timeline/6140f49264484ca2ebc42b13");
             setPosts(res.data)
         }
         fetchPosts();
