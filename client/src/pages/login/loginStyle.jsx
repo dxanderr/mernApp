@@ -67,6 +67,14 @@ export const LoginSection = styled.div`
                     font-size: 20px;
                     font-weight: 500;
                     cursor: pointer;
+
+                    &:focus{
+                        outline: none;
+                    }
+
+                    &:disabled{
+                        cursor: not-allowed;
+                    }
                 }
 
                 .loginForgot{
